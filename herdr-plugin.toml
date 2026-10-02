@@ -1,0 +1,11 @@
+id = "argon-sky.afk-notify"
+name = "AFK Notify"
+version = "1.0.0"
+description = "Notify your phone when a Herdr agent finishes a long turn or needs you, only while you are away from the keyboard."
+author = "Argon Sky"
+min_herdr_version = "0.9.0"
+platforms = ["macos"]
+
+[[events]]
+on = "pane.agent_status_changed"
+command = ["/bin/sh", "run.sh", "notify.mjs"]

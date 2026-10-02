@@ -1,0 +1,21 @@
+{
+  "name": "herdr-afk-notify",
+  "version": "1.0.0",
+  "description": "Herdr plugin: notify your phone when an agent finishes a long turn or needs you, only while you are away from the keyboard.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "herdr",
+    "herdr-plugin",
+    "ntfy",
+    "notifications",
+    "ai-agents"
+  ]
+}
